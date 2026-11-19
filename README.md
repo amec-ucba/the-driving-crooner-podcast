@@ -1,7 +1,8 @@
-# 💻 Assignment Boilerplate
+# 🚕 The Driving Crooner
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration,
-and a pull request template so every assignment works the same way.
+The website for *The Driving Crooner*, a noir audio drama set in Cincinnati in 1947. The page and its base styles are
+already built. In this exercise you add Font Awesome icons and make the **Menu** button open and close the navigation
+on phones.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
