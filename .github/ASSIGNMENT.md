@@ -3,9 +3,10 @@
 ## 🎯 Overview
 
 The Driving Crooner is a noir audio drama set in Cincinnati in 1947. Its website is already built: the HTML and the
-base styles are done. Your job is to finish it. Add icons throughout the page, then make the **Menu** button open
-and close the navigation on phones. You'll practice using an icon library, writing accessible labels for icon-only
-links, and toggling a page element with JavaScript.
+base styles are done. Your job is to finish it. Add icons throughout the page, add a transition to the links, then
+make the **Menu** button open and close the navigation on phones. You'll practice using an icon library, writing
+accessible labels for icon-only links, native interactive elements, CSS transitions, and toggling a page element with
+JavaScript.
 
 ## 📋 Requirements
 
@@ -23,6 +24,18 @@ links, and toggling a page element with JavaScript.
 - [ ] Mark each decorative icon with `aria-hidden="true"`, so screen readers skip it.
 - [ ] Links that show only an icon (**Also on** and the footer) keep their text for screen readers inside a
   `<span class="visually-hidden">`. `base.css` already defines the `.visually-hidden` class.
+
+### FAQ
+
+- [ ] The FAQ near the bottom of the page is already built with `details` and `summary`. Open and close each question
+  with a click, then with the keyboard (<kbd>Tab</kbd> to a question, then <kbd>Enter</kbd>). Don't add JavaScript to
+  it: the browser already handles the clicking, the keyboard, and telling screen readers whether it's open.
+
+### Transitions
+
+- [ ] In `css/style.css`, the header navigation links and the **Also on** links change color on `:hover` and
+  `:focus-visible`, using a color variable from `base.css`.
+- [ ] Add a short `transition` on the links themselves (not on the `:hover` rule), so the color fades in and back out.
 
 ### Mobile menu
 
@@ -56,7 +69,7 @@ When the menu is closed, the header shows only the site name and the **Menu** bu
 |-----------------|-------------------------------------------------------------|
 | `index.html`    | The finished page markup. Add your icons, styles and script here. |
 | `css/base.css`  | Provided styles. **Don't edit.**                            |
-| `css/style.css` | **You create.** Your mobile menu styles.                    |
+| `css/style.css` | **You create.** Your transitions and mobile menu styles.    |
 | `js/script.js`  | **You create.** The code that opens and closes the menu.    |
 | `images/`       | Example screenshots of the finished page.                   |
 
@@ -68,7 +81,8 @@ When the menu is closed, the header shows only the site name and the **Menu** bu
 | Decorative icons are hidden from screen readers; icon-only links keep visually hidden text | 3      |
 | Menu opens and closes on phones and updates `aria-expanded`                                | 4      |
 | Desktop header shows the links in a row and hides the button                               | 2      |
-| `base.css` unchanged; styles in `css/style.css`, script in `js/script.js`                  | 2      |
+| Header and **Also on** links fade to a new color on hover and focus with a `transition`    | 1      |
+| `base.css` unchanged; styles in `css/style.css`, script in `js/script.js`                  | 1      |
 | **Total**                                                                                  | **15** |
 
 The due date is in Canvas.
