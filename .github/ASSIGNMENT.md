@@ -21,7 +21,6 @@ JavaScript.
   - [ ] Spotify, Apple, YouTube and RSS icons for the **Also on** links
   - [ ] An icon that fits each cast member's role (for example, a microphone for the crooner)
   - [ ] Instagram, TikTok and email icons in the footer
-- [ ] Mark each decorative icon with `aria-hidden="true"`, so screen readers skip it.
 - [ ] Links that show only an icon (**Also on** and the footer) keep their text for screen readers inside a
   `<span class="visually-hidden">`. `base.css` already defines the `.visually-hidden` class.
 
@@ -41,7 +40,8 @@ JavaScript.
 
 - [ ] On screens narrower than `48rem`, show the **Menu** button and hide the navigation links.
 - [ ] Clicking **Menu** shows the links; clicking it again hides them.
-- [ ] Each click switches the button's `aria-expanded` attribute between `"false"` and `"true"`.
+- [ ] Each click toggles an `is-open` class on the `nav` with `classList.toggle()`, and your CSS shows the
+  links only when the `nav` has that class.
 - [ ] At `48rem` and wider, hide the **Menu** button and always show the links in a row across the header.
 
 ### Files
@@ -78,8 +78,8 @@ When the menu is closed, the header shows only the site name and the **Menu** bu
 | Criteria                                                                                   | Points |
 |--------------------------------------------------------------------------------------------|--------|
 | Font Awesome loads, and every icon from the screenshots is present                         | 4      |
-| Decorative icons are hidden from screen readers; icon-only links keep visually hidden text | 3      |
-| Menu opens and closes on phones and updates `aria-expanded`                                | 4      |
+| Icon-only links keep their text inside a `visually-hidden` span                            | 3      |
+| Menu opens and closes on phones by toggling the `is-open` class                            | 4      |
 | Desktop header shows the links in a row and hides the button                               | 2      |
 | Header and **Also on** links fade to a new color on hover and focus with a `transition`    | 1      |
 | `base.css` unchanged; styles in `css/style.css`, script in `js/script.js`                  | 1      |
@@ -89,9 +89,8 @@ When the menu is closed, the header shows only the site name and the **Menu** bu
 
 - [Font Awesome: Add icons with HTML](https://docs.fontawesome.com/web/add-icons/how-to)
 - [Font Awesome: Accessibility](https://docs.fontawesome.com/web/dig-deeper/accessibility)
-- [MDN: `aria-expanded`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-expanded)
+- [MDN: `classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
 - [MDN: `addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
-- [MDN: `setAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
 
 ## 🆘 Getting Help
 
