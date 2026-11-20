@@ -85,8 +85,6 @@ When the menu is closed, the header shows only the site name and the **Menu** bu
 | `base.css` unchanged; styles in `css/style.css`, script in `js/script.js`                  | 1      |
 | **Total**                                                                                  | **15** |
 
-The due date is in Canvas.
-
 ## 📚 Resources
 
 - [Font Awesome: Add icons with HTML](https://docs.fontawesome.com/web/add-icons/how-to)
@@ -97,7 +95,7 @@ The due date is in Canvas.
 
 ## 🆘 Getting Help
 
-<!-- Office hours, discussion board, tutoring center, etc. -->
+Ask during class or office hours, or post on the Canvas discussion board.
 
 ---
 
