@@ -77,13 +77,13 @@ When the menu is closed, the header shows only the site name and the **Menu** bu
 
 | Criteria                                                                                   | Points |
 |--------------------------------------------------------------------------------------------|--------|
-| Font Awesome loads, and every icon from the screenshots is present                         | 4      |
-| Icon-only links keep their text inside a `visually-hidden` span                            | 3      |
-| Menu opens and closes on phones by toggling the `is-open` class                            | 4      |
-| Desktop header shows the links in a row and hides the button                               | 2      |
+| Font Awesome loads, and every icon from the screenshots is present                         | 5      |
+| Icon-only links keep their text inside a `visually-hidden` span                            | 4      |
+| Menu opens and closes on phones by toggling the `is-open` class                            | 5      |
+| Desktop header shows the links in a row and hides the button                               | 3      |
 | Header and **Also on** links fade to a new color on hover and focus with a `transition`    | 1      |
 | `base.css` unchanged; styles in `css/style.css`, script in `js/script.js`                  | 1      |
-| **Total**                                                                                  | **15** |
+| **Total**                                                                                  | **19** |
 
 ## 📚 Resources
 
