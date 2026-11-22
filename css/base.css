@@ -45,7 +45,13 @@ h1, h2 {
 }
 
 h2 {
-  font-size: clamp(1.8rem, 4.5vw, 2.5rem);
+  font-size: 1.8rem;
+}
+
+@media (min-width: 48rem) {
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 
 h3 {
@@ -145,7 +151,7 @@ header .wrap > a {
   color: var(--paper);
   text-decoration: none;
   font-family: var(--font-display);
-  font-size: clamp(1.3rem, 5vw, 1.6rem);
+  font-size: 1.3rem;
   line-height: 1.1;
   display: flex;
   align-items: center;
@@ -202,6 +208,10 @@ nav a {
     gap: 1.5rem;
   }
 
+  header .wrap > a {
+    font-size: 1.6rem;
+  }
+
   nav ul {
     display: flex;
     gap: 1.75rem;
@@ -233,7 +243,7 @@ nav a {
   background: repeating-linear-gradient(-35deg, #141416 0 16px, #29292d 16px 32px);
   border: 1px solid var(--ash);
   font-family: var(--font-display);
-  font-size: clamp(7rem, 28vw, 11rem);
+  font-size: 7rem;
   line-height: 0.85;
   color: var(--brass);
 }
@@ -258,7 +268,7 @@ nav a {
 }
 
 #latest h1 {
-  font-size: clamp(2.4rem, 7.5vw, 4rem);
+  font-size: 2.4rem;
 }
 
 #latest p {
@@ -294,6 +304,14 @@ nav a {
     grid-template-columns: minmax(0, 18rem) 1fr;
     align-items: center;
     gap: 3.5rem;
+  }
+
+  #latest .wrap > div:first-child {
+    font-size: 11rem;
+  }
+
+  #latest h1 {
+    font-size: 4rem;
   }
 }
 

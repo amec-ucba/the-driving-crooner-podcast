@@ -88,7 +88,6 @@ When the menu is closed, the header shows only the site name and the **Menu** bu
 ## 📚 Resources
 
 - [Font Awesome: Add icons with HTML](https://docs.fontawesome.com/web/add-icons/how-to)
-- [Font Awesome: Accessibility](https://docs.fontawesome.com/web/dig-deeper/accessibility)
 - [MDN: `classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
 - [MDN: `addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
